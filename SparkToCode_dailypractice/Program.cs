@@ -50,11 +50,23 @@ class Program
         
         
         // Math.Round --> rounds a decimal or double number to the nearest whole number 
-        
+        /*
         Console.WriteLine("enter a number with decimal's to round it :   ");
         double number = double.Parse(Console.ReadLine());
 
         double round = Math.Round(number, 3);
         Console.WriteLine("the result is :  " + round);
+        */ 
+        
+        // 2nd type of functions and most important 
+        //String Functions
+        // using string.Length
+        
+        Console.Write("Write somthing:  ");
+        string input = Console.ReadLine();
+         int length = input.Length;
+         
+         Console.Write("the length of what you wrote is:  " + length);
+         
     }
 }
