@@ -93,10 +93,20 @@ class Program
         */
         
         //string.Replace 
+        /*
         string msg = "Aseel";
         Console.WriteLine("original msg: " + msg);
         string replace = msg.Replace("Aseel", "A");
         Console.Write("replacement: " + replace);
+        */
+        
+        
+        //string.Contains
+        
+        string msg = "my name is Aseel";
+        bool contain = msg.Contains("Aseel");
+        Console.WriteLine("original msg:  " + msg);
+        Console.WriteLine("contain: " + contain);
 
     }
 }
