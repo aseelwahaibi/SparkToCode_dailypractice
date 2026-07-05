@@ -16,7 +16,7 @@ class Program
         */
         
         // Math.Pow --> getting the power of a number (2^3)
-        
+        /*
         Console.Write("enter the base:  ");
         float baseValue = float.Parse(Console.ReadLine());
         Console.Write("enter the power:  ");
@@ -24,6 +24,15 @@ class Program
         
         double result = Math.Pow(baseValue, powervalue);
         Console.WriteLine("this is the result of power:  "+result);
+        */
+        
+        //  Math.Sqrt function 
+        
+        Console.Write("enter a numer:  ");
+        int num = int.Parse(Console.ReadLine());
+        
+        double sqrt = Math.Sqrt(num);
+        Console.WriteLine("the square root of   " + num + "  is  "  + sqrt);
         
         
     }
