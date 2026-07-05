@@ -70,11 +70,18 @@ class Program
          */ 
         
         //string.Substring --> 
+        /*
         string msg = "my name is Aseel";
         string result = msg.Substring(0, 16);
         Console.WriteLine(result);
+        */
         
-
+        //string.ToUpper and string.ToLower
+        string msg = "my name is Aseel";
+        string upper =  msg.ToUpper();
+        string lower = msg.ToLower();
+        Console.WriteLine("msg in upper case : " + upper);
+        Console.WriteLine("msg in lower case: " + lower);
 
     }
 }
