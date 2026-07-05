@@ -86,11 +86,17 @@ class Program
         */
         
         //string.Trim --> removing spaces 
-        
+        /*
         string msg = "my name is Aseel       . ";
         string trim =  msg.Trim();
         Console.WriteLine("after removing the spaces:  " + trim);
+        */
         
+        //string.Replace 
+        string msg = "Aseel";
+        Console.WriteLine("original msg: " + msg);
+        string replace = msg.Replace("Aseel", "A");
+        Console.Write("replacement: " + replace);
 
     }
 }
