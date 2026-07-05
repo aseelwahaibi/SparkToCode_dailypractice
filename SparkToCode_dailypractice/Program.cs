@@ -107,6 +107,22 @@ class Program
         bool contain = msg.Contains("Aseel");
         Console.WriteLine("original msg:  " + msg);
         Console.WriteLine("contain: " + contain);
+        
+        //3rd type of functions :  Date and Time Functions
+        
+        DateTime now = DateTime.Now;
+        Console.WriteLine("now: " + now);
+        
+        DateTime today = DateTime.Today;
+        Console.WriteLine("today: " + today);
+        
+        DateTime tmr = today.AddDays(+15);
+        Console.WriteLine(" after 15 is  : " + tmr);
+        
+        
+        
+        
+        
 
     }
 }
