@@ -27,13 +27,24 @@ class Program
         */
         
         //  Math.Sqrt function 
-        
+        /*
         Console.Write("enter a numer:  ");
         int num = int.Parse(Console.ReadLine());
         
         double sqrt = Math.Sqrt(num);
         Console.WriteLine("the square root of   " + num + "  is  "  + sqrt);
+        */
         
+        //Math.Max and Math.Min
+        Console.Write("enter the 1st numer:  ");
+        int num1 = int.Parse(Console.ReadLine());
+        Console.Write("enter the 2nd numer:  "); 
+        int num2 = int.Parse(Console.ReadLine());
+        
+        int max =  Math.Max(num1, num2);
+        Console.WriteLine("the maximum number is:  " +  max);
+        int min = Math.Min(num1, num2);
+        Console.Write("the minimum number is:  " +  min);
         
     }
 }
