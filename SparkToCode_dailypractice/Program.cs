@@ -60,13 +60,21 @@ class Program
         
         // 2nd type of functions and most important 
         //String Functions
-        // using string.Length
-        
+        // using string.Length --> measure the length of the string including the space
+        /*
         Console.Write("Write somthing:  ");
         string input = Console.ReadLine();
          int length = input.Length;
          
          Console.Write("the length of what you wrote is:  " + length);
-         
+         */ 
+        
+        //string.Substring --> 
+        string msg = "my name is Aseel";
+        string result = msg.Substring(0, 16);
+        Console.WriteLine(result);
+        
+
+
     }
 }
