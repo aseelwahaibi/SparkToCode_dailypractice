@@ -36,6 +36,7 @@ class Program
         */
         
         //Math.Max and Math.Min
+        /*
         Console.Write("enter the 1st numer:  ");
         int num1 = int.Parse(Console.ReadLine());
         Console.Write("enter the 2nd numer:  "); 
@@ -45,6 +46,15 @@ class Program
         Console.WriteLine("the maximum number is:  " +  max);
         int min = Math.Min(num1, num2);
         Console.Write("the minimum number is:  " +  min);
+        */
         
+        
+        // Math.Round --> rounds a decimal or double number to the nearest whole number 
+        
+        Console.WriteLine("enter a number with decimal's to round it :   ");
+        double number = double.Parse(Console.ReadLine());
+
+        double round = Math.Round(number, 3);
+        Console.WriteLine("the result is :  " + round);
     }
 }
