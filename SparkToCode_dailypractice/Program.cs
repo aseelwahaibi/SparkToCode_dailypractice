@@ -77,11 +77,20 @@ class Program
         */
         
         //string.ToUpper and string.ToLower
+        /*
         string msg = "my name is Aseel";
         string upper =  msg.ToUpper();
         string lower = msg.ToLower();
         Console.WriteLine("msg in upper case : " + upper);
         Console.WriteLine("msg in lower case: " + lower);
+        */
+        
+        //string.Trim --> removing spaces 
+        
+        string msg = "my name is Aseel       . ";
+        string trim =  msg.Trim();
+        Console.WriteLine("after removing the spaces:  " + trim);
+        
 
     }
 }
